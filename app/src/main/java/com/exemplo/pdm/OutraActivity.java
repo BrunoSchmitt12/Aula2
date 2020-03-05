@@ -21,6 +21,7 @@ public class OutraActivity extends AppCompatActivity {
         t1.setText(String.valueOf(valor) + "°F");
     }
 
+    
     public void volta(View view) {
         Intent intent = new Intent(this, Aula2.class);
         startActivity(intent);
