@@ -13,7 +13,7 @@ public class OutraActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_outra);
 
-        Float valor = Float.parseFloat(getIntent().getStringExtra("celcius"));
+        float valor = Float.parseFloat(getIntent().getStringExtra("celcius"));
         valor = ((valor*9)/5)+32;
         TextView t1 =findViewById(R.id.textView2);
         t1.setText(String.valueOf(valor));
